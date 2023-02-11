@@ -49,6 +49,7 @@
 		B8D79BD829953F7F00818EF0 /* OpenWithAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWithAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D79BDC29953F7F00818EF0 /* OpenWithAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWithAppUITests.m; sourceTree = "<group>"; };
 		B8D79BDE29953F7F00818EF0 /* OpenWithAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWithAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B8D79BEB2995405300818EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		B8D79BBB29953F7D00818EF0 /* OpenWithApp */ = {
 			isa = PBXGroup;
 			children = (
+				B8D79BEB2995405300818EF0 /* Info.plist */,
 				B8D79BBC29953F7D00818EF0 /* AppDelegate.h */,
 				B8D79BBD29953F7D00818EF0 /* AppDelegate.m */,
 				B8D79BBF29953F7D00818EF0 /* ViewController.h */,
@@ -426,6 +428,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWithApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -450,6 +453,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenWithApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

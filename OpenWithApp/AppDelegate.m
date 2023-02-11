@@ -28,5 +28,10 @@
     return YES;
 }
 
+- (BOOL)application:(NSApplication *)theApplication openFile:(NSString *)filename
+{
+    NSLog(@"%@", filename);
+    return YES;
+}
 
 @end
